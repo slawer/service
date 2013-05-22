@@ -1,0 +1,10 @@
+C:\Users\Alexander\Desktop\DeviceTable\bin\Debug\DeviceTable.dll
+C:\Users\Alexander\Desktop\DeviceTable\bin\Debug\DeviceTable.pdb
+C:\Users\Alexander\Desktop\DeviceTable\bin\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\DeviceTable\bin\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\DeviceTable.DevicesForm.resources
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\DeviceTable.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\DeviceTable.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\DeviceTable.dll
+C:\Users\Alexander\Desktop\DeviceTable\obj\Debug\DeviceTable.pdb

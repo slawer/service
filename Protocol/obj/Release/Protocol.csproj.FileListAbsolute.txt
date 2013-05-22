@@ -1,0 +1,50 @@
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\Protocol.Properties.Resources.resources
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\Protocol.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\Protocol.dll
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\Protocol.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\DomainManager.exe
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\DomainManager.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\Protocol.dll
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\Protocol.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\Protocol.ProtocolForm.resources
+C:\Users\Alexander\Desktop\Protocol\bin\Release\Protocol.dll
+C:\Users\Alexander\Desktop\Protocol\bin\Release\Protocol.pdb
+C:\Users\Alexander\Desktop\Protocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\Protocol\obj\Release\Protocol.Properties.Resources.resources
+C:\Users\Alexander\Desktop\Protocol\obj\Release\Protocol.ProtocolForm.resources
+C:\Users\Alexander\Desktop\Protocol\obj\Release\Protocol.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\Protocol\obj\Release\Protocol.dll
+C:\Users\Alexander\Desktop\Protocol\obj\Release\Protocol.pdb
+C:\Users\Alexander\Desktop\Protocol\bin\Release\DomainManager.pdb
+C:\Users\Alexander\Desktop\Protocol\bin\Release\DomainManager.exe
+C:\Users\Developer\Desktop\Protocol\bin\Release\Protocol.dll
+C:\Users\Developer\Desktop\Protocol\bin\Release\Protocol.pdb
+C:\Users\Developer\Desktop\Protocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\Protocol\obj\Release\Protocol.Properties.Resources.resources
+C:\Users\Developer\Desktop\Protocol\obj\Release\Protocol.ProtocolForm.resources
+C:\Users\Developer\Desktop\Protocol\obj\Release\Protocol.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\Protocol\obj\Release\Protocol.dll
+C:\Users\Developer\Desktop\Protocol\obj\Release\Protocol.pdb
+C:\Users\Developer\Desktop\Protocol\bin\Release\Platform.dll
+C:\Users\Developer\Desktop\Protocol\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\Protocol\bin\Release\Protocol.dll
+C:\Users\Developer\Desktop\100310 1108\Protocol\bin\Release\Protocol.pdb
+C:\Users\Developer\Desktop\100310 1108\Protocol\bin\Release\Platform.dll
+C:\Users\Developer\Desktop\100310 1108\Protocol\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\Protocol.Properties.Resources.resources
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\Protocol.ProtocolForm.resources
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\Protocol.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\Protocol.dll
+C:\Users\Developer\Desktop\100310 1108\Protocol\obj\Release\Protocol.pdb
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\bin\Release\Protocol.dll
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\bin\Release\Protocol.pdb
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\bin\Release\Platform.pdb
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\Protocol.Properties.Resources.resources
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\Protocol.ProtocolForm.resources
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\ResGen.read.1.tlog
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\ResGen.write.1.tlog
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\Protocol.dll
+C:\Users\AlexPRQ\Desktop\Service3\Protocol\obj\Release\Protocol.pdb

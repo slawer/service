@@ -1,0 +1,10 @@
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Debug\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Debug\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Debug\Platform.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\DeviceUnknown.MainForm.resources
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\DeviceUnknown.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Debug\DeviceUnknown.pdb

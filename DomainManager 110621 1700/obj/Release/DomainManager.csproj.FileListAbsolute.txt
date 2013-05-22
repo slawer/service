@@ -1,0 +1,83 @@
+C:\Users\Alexander\Desktop\DomainManager\bin\Release\DomainManager.exe
+C:\Users\Alexander\Desktop\DomainManager\bin\Release\DomainManager.pdb
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.exe
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.pdb
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.Main.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.About.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.PluginsForm.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Release\DomainManager.Options.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.exe
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.pdb
+C:\Users\Developer\Desktop\platform\DomainManager\bin\Release\DomainManager.exe
+C:\Users\Developer\Desktop\platform\DomainManager\bin\Release\DomainManager.pdb
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.About.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.Main.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.Options.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.PluginsForm.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.Properties.Resources.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.Main.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.About.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.Options.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\DomainManager\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\DomainManager\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.exe
+C:\Users\Developer\Desktop\DomainManager\obj\Release\Platform.pdb
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.exe
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.pdb
+C:\Users\Developer\Desktop\100302 1029\DomainManager\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\100302 1029\DomainManager\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.About.resources
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.Main.resources
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.Options.resources
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.About.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.Main.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.Options.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.exe
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Release\Platform.pdb
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.exe
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.pdb
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.About.resources
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.Main.resources
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.Options.resources
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Release\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Release\Platform.XML
+C:\Users\Александр\Desktop\DomainManager\bin\Release\Platform.XML
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.exe
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.pdb
+C:\Users\Александр\Desktop\DomainManager\bin\Release\Platform.exe
+C:\Users\Александр\Desktop\DomainManager\bin\Release\Platform.pdb
+C:\Users\Александр\Desktop\DomainManager\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.About.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.Main.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.Options.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.PluginsForm.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Release\Platform.Properties.Resources.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Александр\Desktop\DomainManager\obj\Release\GenerateResource-ResGen.write.1.tlog
+\\ALEXPRQ\Progs\_NET\projects\ASK\Service3\DomainManager 110621 1700\bin\Release\Platform.XML
+\\ALEXPRQ\Progs\_NET\projects\ASK\Service3\DomainManager 110621 1700\obj\Release\Platform.exe
+\\ALEXPRQ\Progs\_NET\projects\ASK\Service3\DomainManager 110621 1700\obj\Release\Platform.pdb

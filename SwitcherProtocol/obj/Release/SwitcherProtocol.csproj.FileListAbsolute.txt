@@ -1,0 +1,24 @@
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\bin\Release\SwitcherProtocol.dll
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\bin\Release\SwitcherProtocol.pdb
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\bin\Release\Platform.xml
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.MainForm.resources
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.PortOptions.resources
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.Properties.Resources.resources
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.dll
+C:\Users\Developer\Desktop\100310 1108\SwitcherProtocol\obj\Release\SwitcherProtocol.pdb
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\bin\Release\SwitcherProtocol.dll
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\bin\Release\SwitcherProtocol.pdb
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\bin\Release\Platform.pdb
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\bin\Release\Platform.xml
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\ResolveAssemblyReference.cache
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\SwitcherProtocol.MainForm.resources
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\SwitcherProtocol.PortOptions.resources
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\SwitcherProtocol.Properties.Resources.resources
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\ResGen.read.1.tlog
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\ResGen.write.1.tlog
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\SwitcherProtocol.dll
+C:\Users\AlexPRQ\Desktop\SwitcherProtocol\obj\Release\SwitcherProtocol.pdb

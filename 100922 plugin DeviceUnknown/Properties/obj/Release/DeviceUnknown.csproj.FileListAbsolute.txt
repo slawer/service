@@ -1,0 +1,14 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\DeviceUnknown\bin\Release\DeviceUnknown.dll
+C:\Users\Alexander\AppData\Local\Temporary Projects\DeviceUnknown\bin\Release\DeviceUnknown.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\DeviceUnknown\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\DeviceUnknown\obj\Release\DeviceUnknown.dll
+C:\Users\Alexander\AppData\Local\Temporary Projects\DeviceUnknown\obj\Release\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.MainForm.resources

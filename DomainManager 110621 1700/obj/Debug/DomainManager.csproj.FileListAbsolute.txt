@@ -1,0 +1,54 @@
+C:\Users\Alexander\Desktop\DomainManager\bin\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\DomainManager\bin\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.Main.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.About.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.PluginsForm.resources
+C:\Users\Alexander\Desktop\DomainManager\obj\Debug\DomainManager.Options.resources
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Debug\DomainManager.exe
+C:\Users\Developer\Desktop\platform\DomainManager\obj\Debug\DomainManager.pdb
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\DomainManager\bin\Debug\Platform.exe
+C:\Users\Developer\Desktop\DomainManager\bin\Debug\Platform.pdb
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.About.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.Main.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.Options.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.exe
+C:\Users\Developer\Desktop\DomainManager\obj\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Debug\Platform.exe
+C:\Users\Developer\Desktop\100302 1029\DomainManager\obj\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.exe
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Debug\Platform.exe
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.About.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.Main.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.Options.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.PluginsForm.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\Platform.Properties.Resources.resources
+C:\Users\Developer\Desktop\100310 1108\DomainManager\obj\Debug\DomainManager.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\bin\Debug\Platform.XML
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Debug\Platform.exe
+C:\Users\Developer\Desktop\LastVirsions\100310 1108\DomainManager\obj\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100310 1108\DomainManager\bin\Debug\Platform.XML
+C:\Users\Александр\Desktop\DomainManager\bin\Debug\Platform.XML
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.exe
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.pdb
+C:\Users\Александр\Desktop\DomainManager\bin\Debug\Platform.exe
+C:\Users\Александр\Desktop\DomainManager\bin\Debug\Platform.pdb
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.About.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.Main.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.Options.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.PluginsForm.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\Platform.Properties.Resources.resources
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Александр\Desktop\DomainManager\obj\Debug\GenerateResource-ResGen.write.1.tlog

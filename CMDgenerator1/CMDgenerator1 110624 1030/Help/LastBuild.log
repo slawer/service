@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.8.0.3" projectFile="C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help1.shfbproj" started="17.11.2010 13:50:40">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in 'C:\Program Files\Sandcastle\'
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in 'C:\Program Files\HTML Help Workshop\'
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Debug\BOtimeReset1.dll
+    Found assembly 'C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Debug\BOtimeReset1.dll'
+Source: C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Debug\BOtimeReset1.XML
+
+Copying XML comments files
+    C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Debug\BOtimeReset1.XML -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\BOtimeReset1.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Английский (США))...
+    Last step completed in 00:00:00.0861
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0086
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+GenerateRefInfo:
+  MrefBuilder (v2.4.10520.1)
+  Copyright c Microsoft 2006
+  Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 1 namespaces, 9 types, and 57 members
+  XslTransform (v2.4.10520.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\MergeDuplicates.xsl'.
+    Last step completed in 00:00:04.7425
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0232
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    10 local and base class EII elements removed
+    Last step completed in 00:00:00.1007
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+TransformManifest:
+  XslTransform (v2.4.10520.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
+  Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+  XslTransform (v2.4.10520.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+    Last step completed in 00:00:06.1606
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0077
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\adm_dev_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_caution.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_note.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\alert_security.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_adm.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\big_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\big_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_dev.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\big_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\big_kw.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\big_kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\box.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\box.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\Caution.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\CFW.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collall.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\collall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\collapse.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\collapse_all.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycode.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\copycodeHighlight.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\copycodeHighlight.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dev_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdown.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\dropdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\dropdownHover.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\dropdownHover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\drpdown.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\drpdown_orange.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpdown_orange_up.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\drpdown_orange_up.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\drpup.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\drpup.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\exp.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\exp.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expall.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\expall.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\expand_all.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1a.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\filter1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\filter1c.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\filter1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\footer.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\footer.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\gradient.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\gradient.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greencheck.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\greencheck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\greychck.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\greychck.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_prev_next.jpg -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\header_prev_next.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\header_sql_tutorial_blank.jpg
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\header_sql_tutorial_logo.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_adm.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_adm_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_adm_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_adm_dev_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_adm_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_dev.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\kw_dev_arch.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\kw_dev_arch.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\LastChild.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\load.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\load_hover.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\load_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\note.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\note.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pencil.GIF -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pencil.GIF
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privclass.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privdelegate.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenum.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privenumeration.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privevent.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privextension.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privfield.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privinterface.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privmethod.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privproperty.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\privstructure.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protclass.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protdelegate.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenum.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protenumeration.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protevent.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protextension.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protfield.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protinterface.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protmethod.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protoperator.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protproperty.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\protstructure.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubclass.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubdelegate.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenum.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubenumeration.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubenumeration.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubevent.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubextension.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubextension.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubfield.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubinterface.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubmethod.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\puboperator.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubproperty.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\pubstructure.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1a.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\requirements1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\requirements1c.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\requirements1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\save.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\save_hover.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\save_hover.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\security.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1a.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\seealso1a.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\seealso1c.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\seealso1c.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\static.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\icons\xna.gif -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\icons\xna.gif
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CheckboxMenu.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\CheckboxMenu.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\CommonUtilities.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\CommonUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\Dropdown.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\Dropdown.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\EventUtilities.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_feedBack.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\script_feedBack.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\script_manifold.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\script_manifold.js
+C:\Program Files\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\styles\Presentation.css
+C:\Program Files\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\styles\Whidbey\presentation.css
+    Last step completed in 00:00:00.9121
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0209
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.1186
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.1395
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\sandcastle.config
+    No additional help attributes defined.  The 'MS Help 2 Attributes' component was not added.
+    Last step completed in 00:00:00.0837
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+BuildReferenceTopics:
+  BuildAssembler (v2.4.10520.1)
+  Copyright c Microsoft 2006
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file 'C:\Program Files\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml'.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
+  Info: CopyFromIndexComponent: Indexed 170220 elements in 107 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\BOtimeReset1.XML'.
+  Info: CopyFromIndexComponent: Indexed 31 elements in 2 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder BuildAssembler Components, version 1.8.0.3]
+      Show Missing Documentation Component. Copyright c 2006-2010, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: VersionInfoComponent: Instantiating component.
+  Info: VersionInfoComponent: 
+      [Sandcastle Help File Builder BuildAssembler Components, version 1.8.0.3]
+      Version Information Component. Copyright c 2006-2010, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder BuildAssembler Components, version 1.8.0.3]
+      Code Block Component. Copyright c 2006-2010, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: PostTransformComponent: Instantiating component.
+  Info: PostTransformComponent: 
+      [Sandcastle Help File Builder BuildAssembler Components, version 1.8.0.3]
+      Post-Transform Component. Copyright c 2006-2010, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\shared\content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Loaded 584 shared content items.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working' for targets files of the form 'reflection.xml'.
+  Info: ResolveReferenceLinksComponent2: Loaded 170220 reference targets.
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:BOtimeReset1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BOtimeReset1
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Class1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.Class1
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IPlugin'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IPlugin'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IPlugin'.
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Class1
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Class1.#ctor
+  Info: ShowMissingComponent: Auto-documenting dispose method M:BOtimeReset1.Class1.Dispose
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Class1
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Class1
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Class1.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Class1.#ctor
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Class1.Activate
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Class1.Activate
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'M:Platform.IPlugin.Activate'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Author
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Author
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Author'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.ContextMenuString
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.ContextMenuString
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.ContextMenuString'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Description
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Description
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Description'.
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Class1.Dispose
+  Info: ShowMissingComponent: Auto-documenting dispose method M:BOtimeReset1.Class1.Dispose
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'M:Platform.IPlugin.Dispose'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.FaceString
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.FaceString
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.FaceString'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Icon
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Icon
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Icon'.
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Class1.Initialize(Platform.IApplication)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Class1.Initialize(Platform.IApplication)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;application&quot;/&gt; documentation for M:BOtimeReset1.Class1.Initialize(Platform.IApplication)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'M:Platform.IPlugin.Initialize(Platform.IApplication)'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.MainMenuString
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.MainMenuString
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.MainMenuString'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Name
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Name
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Name'.
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Class1.Process(Platform.Packet)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Class1.Process(Platform.Packet)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;packet&quot;/&gt; documentation for M:BOtimeReset1.Class1.Process(Platform.Packet)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.Packet'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.Packet'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.Packet'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.Packet'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'M:Platform.IPlugin.Process(Platform.Packet)'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Send
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Send
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Send'.
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Class1.Version
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Class1.Version
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:Platform.IPlugin.Version'.
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Form1
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Form1
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:System.Windows.Forms.Control.ImeModeBase'.
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Form1
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Form1
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:System.Windows.Forms.Control.ImeModeBase'.
+  Info: BuildAssembler: Building topic Events.T:BOtimeReset1.Form1
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Dispose
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Select
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Show
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.ShowDialog
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.ValidateChildren
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Validate
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.AccessibilityNotifyClients
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.BeginInvoke
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.GetChildAtPoint
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Invalidate
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Invoke
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.PerformLayout
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.ResumeLayout
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.Scale
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.SetBounds
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.RtlTranslateAlignment
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.UpdateBounds
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form1.MemberwiseClone
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Form1.#ctor(Platform.IApplication)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:Platform.IApplication'.
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Form1.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Form2
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Form2
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:System.Windows.Forms.Control.ImeModeBase'.
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Form2
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Form2
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'P:System.Windows.Forms.Control.ImeModeBase'.
+  Info: BuildAssembler: Building topic Events.T:BOtimeReset1.Form2
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Dispose
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Select
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Show
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.ShowDialog
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.ValidateChildren
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Validate
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.AccessibilityNotifyClients
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.BeginInvoke
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.GetChildAtPoint
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Invalidate
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Invoke
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.PerformLayout
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.ResumeLayout
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.Scale
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.SetBounds
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.RtlTranslateAlignment
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.UpdateBounds
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Form2.MemberwiseClone
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Form2.#ctor(BOtimeReset1.SetTimeParameters)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Form2.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Parameter
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.Parameter
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Parameter
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Parameter.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Parameter
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Parameter
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Parameter.#ctor(System.String)
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Parameter.#ctor(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;name&quot;/&gt; documentation for M:BOtimeReset1.Parameter.#ctor(System.String)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Parameter.Insert(BOtimeReset1.Property)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Parameter.Insert(BOtimeReset1.Property)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;property&quot;/&gt; documentation for M:BOtimeReset1.Parameter.Insert(BOtimeReset1.Property)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Parameter.Item(System.Int32)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Parameter.Item(System.Int32)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Parameter.Name
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Parameter.Name
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Parameter.Properties
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Parameter.Properties
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Parameter.Remove(BOtimeReset1.Property)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Parameter.Remove(BOtimeReset1.Property)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;property&quot;/&gt; documentation for M:BOtimeReset1.Parameter.Remove(BOtimeReset1.Property)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Parameter.Value
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Parameter.Value
+  Info: BuildAssembler: Building topic T:BOtimeReset1.ParametrConstants
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.ParametrConstants
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.ParametrConstants
+  Info: BuildAssembler: Building topic Fields.T:BOtimeReset1.ParametrConstants
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.ConfigName
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.ConfigName
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.ErrorLoadConfig
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.ErrorLoadConfig
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.ErrorNotConfig
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.ErrorNotConfig
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.ErrorSaveConfig
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.ErrorSaveConfig
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.MaxAddress
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.MaxAddress
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.MinAddress
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.MinAddress
+  Info: BuildAssembler: Building topic F:BOtimeReset1.ParametrConstants.NoValidBO
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:BOtimeReset1.ParametrConstants.NoValidBO
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Property
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.Property
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Property
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Property.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Property
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Property
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Property.#ctor(System.String,System.String)
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Property.#ctor(System.String,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;Name&quot;/&gt; documentation for M:BOtimeReset1.Property.#ctor(System.String,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;Value&quot;/&gt; documentation for M:BOtimeReset1.Property.#ctor(System.String,System.String)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Property.Name
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Property.Name
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Property.Value
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Property.Value
+  Info: BuildAssembler: Building topic T:BOtimeReset1.SaveOptions
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.SaveOptions
+  Info: BuildAssembler: Building topic T:BOtimeReset1.SetTimeParameters
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.SetTimeParameters
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.SetTimeParameters.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.SetTimeParameters
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.SetTimeParameters
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.SetTimeParameters.#ctor
+  Info: BuildAssembler: Building topic P:BOtimeReset1.SetTimeParameters.CodeExit
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.getAdrBO(System.Int32)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.getFlagBO(System.Int32)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.getNameBO(System.Int32)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.isValidBO(System.Int32)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.SetTimeParameters.OldFormatCMD
+  Info: BuildAssembler: Building topic P:BOtimeReset1.SetTimeParameters.ResetBOAfterSet
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.setAdrBO(System.Int32,System.Int32)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.setFlagBO(System.Int32,System.Boolean)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.SetTimeParameters.setNameBO(System.Int32,System.String)
+  Info: BuildAssembler: Building topic T:BOtimeReset1.Settings
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BOtimeReset1.Settings
+  Info: BuildAssembler: Building topic AllMembers.T:BOtimeReset1.Settings
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Settings.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BOtimeReset1.Settings
+  Info: BuildAssembler: Building topic Properties.T:BOtimeReset1.Settings
+  Info: BuildAssembler: Building topic Overload:BOtimeReset1.Settings.CreateNewSettings
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BOtimeReset1.Settings.#ctor
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.CreateNewSettings
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.CreateNewSettings
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BOtimeReset1.Settings.CreateNewSettings
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.CreateNewSettings(System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.CreateNewSettings(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;filePath&quot;/&gt; documentation for M:BOtimeReset1.Settings.CreateNewSettings(System.String)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.Insert(BOtimeReset1.Parameter)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.Insert(BOtimeReset1.Parameter)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;parameter&quot;/&gt; documentation for M:BOtimeReset1.Settings.Insert(BOtimeReset1.Parameter)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.Load(System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.Load(System.String)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BOtimeReset1.Settings.Load(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;settingsFilePath&quot;/&gt; documentation for M:BOtimeReset1.Settings.Load(System.String)
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.ModifySettings
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.ModifySettings
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Settings.Parameters
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Settings.Parameters
+  Info: BuildAssembler: Building topic M:BOtimeReset1.Settings.Save(System.String,BOtimeReset1.SaveOptions)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BOtimeReset1.Settings.Save(System.String,BOtimeReset1.SaveOptions)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;FilePath&quot;/&gt; documentation for M:BOtimeReset1.Settings.Save(System.String,BOtimeReset1.SaveOptions)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;Options&quot;/&gt; documentation for M:BOtimeReset1.Settings.Save(System.String,BOtimeReset1.SaveOptions)
+  Info: BuildAssembler: Building topic P:BOtimeReset1.Settings.SettingsFilePath
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BOtimeReset1.Settings.SettingsFilePath
+  Info: Processed 127 topics
+    Last step completed in 00:05:38.7967
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+GenerateIntermediateTOC:
+  XslTransform (v2.4.10520.1)
+  Copyright c Microsoft 2005-2006
+  Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
+    Last step completed in 00:00:02.1563
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+Sandcastle Help File Builder HTML Extract, version 1.8.0.3
+Copyright c 2008-2010, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID '1033', code page '65001', encoding charset 'UTF-8'.
+Processed 127 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Documents and Settings\Admin\Њ&#174;Ё &#164;&#174;Єг&#172;Ґ&#173;вл\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Documentation.hhc
+    Last step completed in 00:00:01.0490
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0216
+</buildStep>
+<buildStep step="UpdateTableOfContents">
+Updating table of contents with additional content items and determining default topic...
+    Last step completed in 00:00:00.0144
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0072
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0503
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+Build1xHelpFile:
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 3 seconds
+  
+  129	Topics
+  
+  1,484	Local links
+  
+  4,122	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\Help\Working\Output\Documentation.chm, 297,617 bytes
+  
+  Compression decreased file by 2,008,159 bytes.
+  
+    Last step completed in 00:00:04.0524
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.2156
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 11.17.2010 01:56 .  Total time: 00:05:59,2008
+
+</buildStep>
+</shfbBuild>

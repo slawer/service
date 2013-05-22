@@ -1,0 +1,9 @@
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Debug\FirstPlugin.dll
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Debug\FirstPlugin.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Debug\FirstPlugin.Properties.Resources.resources
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Debug\FirstPlugin.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Debug\FirstPlugin.dll
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Debug\FirstPlugin.pdb

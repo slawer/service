@@ -1,0 +1,10 @@
+C:\Users\Alexander\Desktop\WriterToFile\bin\Debug\WriterToFile.dll
+C:\Users\Alexander\Desktop\WriterToFile\bin\Debug\WriterToFile.pdb
+C:\Users\Alexander\Desktop\WriterToFile\bin\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\WriterToFile\bin\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\WriterToFile.Properties.Resources.resources
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\WriterToFile.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\WriterToFile.dll
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\WriterToFile.pdb
+C:\Users\Alexander\Desktop\WriterToFile\obj\Debug\WriterToFile.WriterForm.resources

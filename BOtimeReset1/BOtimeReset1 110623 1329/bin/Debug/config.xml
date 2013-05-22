@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <host>localhost</host>
+  <port>56000</port>
+  <autoconnect>True</autoconnect>
+  <DownTime>3000</DownTime>
+  <SpeedSurvey>50</SpeedSurvey>
+  <MaxPacketsCount>7000</MaxPacketsCount>
+  <WaitTimeForWorking>20</WaitTimeForWorking>
+</configuration>

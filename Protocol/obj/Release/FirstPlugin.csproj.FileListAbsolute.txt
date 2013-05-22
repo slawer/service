@@ -1,0 +1,16 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\bin\Release\FirstPlugin.dll
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\bin\Release\FirstPlugin.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\bin\Release\DomainManager.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\bin\Release\DomainManager.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\obj\Release\FirstPlugin.dll
+C:\Users\Alexander\AppData\Local\Temporary Projects\FirstPlugin\obj\Release\FirstPlugin.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\FirstPlugin.dll
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\FirstPlugin.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\DomainManager.exe
+C:\Users\Alexander\Desktop\FirstPlugin\bin\Release\DomainManager.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\FirstPlugin.dll
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\FirstPlugin.pdb
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\FirstPlugin.Properties.Resources.resources
+C:\Users\Alexander\Desktop\FirstPlugin\obj\Release\FirstPlugin.csproj.GenerateResource.Cache

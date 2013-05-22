@@ -1,0 +1,12 @@
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Debug\BlockConfiguration.dll
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Debug\BlockConfiguration.pdb
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Debug\Platform.exe
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Debug\Platform.pdb
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.GUI.EditForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.GUI.LoadForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.Properties.Resources.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.TestMainForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.dll
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Debug\BlockConfiguration.pdb

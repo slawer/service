@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BlockConfiguration">
+</Property><Property Name="Файл решения" Value="C:\Users\Александр\Desktop\BlockConfiguration\BlockConfiguration.sln">
+</Property><Property Name="Файл параметров пользователя" Value="C:\Users\Александр\Desktop\BlockConfiguration\BlockConfiguration.suo">
+</Property><Property Name="Date" Value="21 февраля 2011 г.">
+</Property><Property Name="Time" Value="14:36">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BlockConfiguration.sln" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\BlockConfiguration.sln">
+</Event><Event ErrorLevel="0" Project="" Source="BlockConfiguration.suo" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\BlockConfiguration.suo">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="BlockConfiguration.csproj" Description="Успешно создана резервная копия файла проекта: C:\Users\Александр\Desktop\BlockConfiguration\Backup\BlockConfiguration.csproj">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="BlockConfiguration.csproj.user" Description="Резервная копия проекта успешно создана как C:\Users\Александр\Desktop\BlockConfiguration\Backup\BlockConfiguration.csproj.user">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\CommonOptionsForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\CommonOptionsForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\CommonOptionsForm.designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\CommonOptionsForm.designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditOprosCmdForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditOprosCmdForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditOprosCmdForm.designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditOprosCmdForm.designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\LoadForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\LoadForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\LoadForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\LoadForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\MainForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\MainForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\OptionsOfBlockForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\OptionsOfBlockForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\OptionsOfBlockForm.designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\OptionsOfBlockForm.designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\SaveForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\SaveForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\SaveForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\SaveForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="IO\Block.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\IO\Block.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="IO\BlockConfigurationIO.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\IO\BlockConfigurationIO.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="IO\HandleIO.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\IO\HandleIO.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="Plugin.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\Plugin.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="TestMainForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\TestMainForm.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="TestMainForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\TestMainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="Resources\Andere036.ico" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\Resources\Andere036.ico">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\CommonOptionsForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\CommonOptionsForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\EditOprosCmdForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\EditOprosCmdForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\LoadForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\LoadForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\MainForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\OptionsOfBlockForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\OptionsOfBlockForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="GUI\SaveForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\GUI\SaveForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="TestMainForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\BlockConfiguration\Backup\TestMainForm.resx">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="BlockConfiguration.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="BlockConfiguration" Source="BlockConfiguration.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BlockConfiguration.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="BlockConfiguration.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BlockConfiguration" Source="BlockConfiguration.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

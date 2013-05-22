@@ -1,0 +1,30 @@
+C:\Users\Alexander\Desktop\EpromTools\bin\Debug\EpromWorking.dll
+C:\Users\Alexander\Desktop\EpromTools\bin\Debug\EpromWorking.pdb
+C:\Users\Alexander\Desktop\EpromTools\bin\Debug\DomainManager.exe
+C:\Users\Alexander\Desktop\EpromTools\bin\Debug\DomainManager.pdb
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\EpromWorking.Properties.Resources.resources
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\EpromWorking.EpromWorkingForm.resources
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\EpromTools.csproj.GenerateResource.Cache
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\EpromWorking.dll
+C:\Users\Alexander\Desktop\EpromTools\obj\Debug\EpromWorking.pdb
+C:\Users\Developer\Desktop\EpromTools\bin\Debug\EpromWorking.dll
+C:\Users\Developer\Desktop\EpromTools\bin\Debug\EpromWorking.pdb
+C:\Users\Developer\Desktop\EpromTools\bin\Debug\DomainManager.exe
+C:\Users\Developer\Desktop\EpromTools\bin\Debug\DomainManager.pdb
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\EpromWorking.Properties.Resources.resources
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\EpromWorking.EpromWorkingForm.resources
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\EpromTools.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\EpromWorking.dll
+C:\Users\Developer\Desktop\EpromTools\obj\Debug\EpromWorking.pdb
+C:\Users\Developer\Desktop\100302 1029\EpromTools\bin\Debug\EpromWorking.dll
+C:\Users\Developer\Desktop\100302 1029\EpromTools\bin\Debug\EpromWorking.pdb
+C:\Users\Developer\Desktop\100302 1029\EpromTools\bin\Debug\Platform.dll
+C:\Users\Developer\Desktop\100302 1029\EpromTools\bin\Debug\Platform.pdb
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\EpromWorking.Properties.Resources.resources
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\EpromWorking.EpromWorkingForm.resources
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\EpromTools.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\EpromWorking.dll
+C:\Users\Developer\Desktop\100302 1029\EpromTools\obj\Debug\EpromWorking.pdb

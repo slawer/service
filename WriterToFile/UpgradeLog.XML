@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WriterToFile">
+</Property><Property Name="Файл решения" Value="C:\Users\AlexPRQ\Desktop\Service3\WriterToFile\WriterToFile.sln">
+</Property><Property Name="Date" Value="6 мая 2013 г.">
+</Property><Property Name="Time" Value="17:40">
+</Property></Properties><Event ErrorLevel="0" Project="WriterToFile" Source="WriterToFile.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="WriterToFile" Source="WriterToFile.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WriterToFile.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="WriterToFile.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WriterToFile" Source="WriterToFile.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

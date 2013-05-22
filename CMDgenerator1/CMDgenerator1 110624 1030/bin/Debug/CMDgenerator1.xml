@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMDgenerator1</name>
+    </assembly>
+    <members>
+        <member name="T:CMDgenerator1.SetTimeParameters">
+            <summary>
+            Класс, содержащий настройки программы
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.isValidBO(System.Int32)">
+            <summary>
+            Проверка адреса Устройства на попадание в диапазон допустимых адресов и текста команды на корректность
+            </summary>
+            <param name="number">Номер Устройства, адрес которого проверяется</param>
+            <returns>true если адрес попадает в диапазон допустимых и команда корректна</returns>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.getAdrBO(System.Int32)">
+            <summary>
+            Чтение адреса Устройства
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <returns>Адрес Устройства</returns>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.getNameBO(System.Int32)">
+            <summary>
+            Чтение наименования команды
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <returns>Наименование команды</returns>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.getNameCMD(System.Int32)">
+            <summary>
+            Чтение текста команды
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <returns>Текст команды</returns>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.setAdrBO(System.Int32,System.Int32)">
+            <summary>
+            Установка адреса Устройства
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <param name="addr">Адрес Устройства</param>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.setNameBO(System.Int32,System.String)">
+            <summary>
+            Установка имени команды
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <param name="name">Имя команды</param>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.setNameCMD(System.Int32,System.String)">
+            <summary>
+            Установка текста команды
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <param name="name">Текст команды</param>
+        </member>
+        <member name="M:CMDgenerator1.SetTimeParameters.isValidCMD(System.Int32)">
+            <summary>
+            Проверка текста команды
+            </summary>
+            <param name="number">Номер Устройства (от 1 до 7)</param>
+            <returns>true если команда корректна</returns>
+        </member>
+        <member name="P:CMDgenerator1.SetTimeParameters.CodeExit">
+            <summary>
+            Флаг "Применить настройки"
+            </summary>
+        </member>
+        <member name="T:CMDgenerator1.Form1">
+            <summary>
+            Главная форма модуля управляет синхронизацией времени БО
+            </summary>
+        </member>
+        <member name="F:CMDgenerator1.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CMDgenerator1.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.Form1.#ctor(Platform.IApplication)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="application">Интерфейс связи с платформой</param>
+        </member>
+        <member name="M:CMDgenerator1.Form1.SaveConfiguration(CMDgenerator1.SetTimeParameters,System.String)">
+            <summary>
+            Сохранить конфигурацию из класса параметров в файл
+            </summary>
+            <param name="parameters">Сохраняемые параметры</param>
+            <param name="uri">Имя файла, в котором сохраняется конфигурация</param>
+        </member>
+        <member name="M:CMDgenerator1.Form1.LoadConfiguration(System.String)">
+            <summary>
+            Восстановление конфигурации из файла
+            </summary>
+            <param name="uri">Имя файла, в котором сохранена конфигурация</param>
+            <returns>Класс, порождённый из сохранённых параметров</returns>
+            <exception cref="T:System.IO.FileNotFoundException">Не найден файл с конфигурацией</exception>
+            <exception cref="!:">Exception</exception>
+        </member>
+        <member name="M:CMDgenerator1.Form1.SetImageForm">
+            <summary>
+            Настройка внешнего вида формы в соответствии с параметрами конфигурации
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.Form1.SendString(System.Int32)">
+            <summary>
+            Формирование строки синхронизации с последующей отсылкой в сеть устройств
+            Может сопровождаться отсылкой дополнительной строки рестарта
+            </summary>
+            <param name="param">Номер команды</param>
+        </member>
+        <member name="M:CMDgenerator1.Form1.SaveParams">
+            <summary>
+            Сохранение параметров настройки в класс параметров и в файл конфигурации
+            </summary>
+        </member>
+        <member name="T:CMDgenerator1.Form2">
+            <summary>
+            Форма настройки параметров блоков отображения
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.Form2.#ctor(CMDgenerator1.SetTimeParameters)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="parameters">Параметры настройки программы</param>
+        </member>
+        <member name="F:CMDgenerator1.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CMDgenerator1.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CMDgenerator1.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:CMDgenerator1.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:CMDgenerator1.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:CMDgenerator1.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

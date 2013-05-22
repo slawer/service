@@ -1,0 +1,52 @@
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.Properties.Resources.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Release\BlockConfiguration.dll
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Release\BlockConfiguration.pdb
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Release\Platform.pdb
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.dll
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.pdb
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.LoadForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.TestMainForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.EditForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.EditOprosCmdForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.OptionsOfBlockForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.CommonOptionsForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.MainForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.SaveForm.resources
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Release\Platform.exe
+C:\Users\Developer\Desktop\BlockConfiguration\bin\Release\Platform.xml
+C:\Users\Александр\Desktop\BlockConfiguration\bin\Release\BlockConfiguration.dll
+C:\Users\Александр\Desktop\BlockConfiguration\bin\Release\BlockConfiguration.pdb
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.CommonOptionsForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.EditForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.EditOprosCmdForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.LoadForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.MainForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.OptionsOfBlockForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.SaveForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.Properties.Resources.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.TestMainForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.dll
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.pdb
+C:\Users\Александр\Desktop\BlockConfiguration\obj\Release\BlockConfiguration.GUI.FastInitForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\bin\Release\BlockConfiguration.dll
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\bin\Release\BlockConfiguration.pdb
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.CommonOptionsForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.EditForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.EditOprosCmdForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.FastInitForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.LoadForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.MainForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.OptionsOfBlockForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.GUI.SaveForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.Properties.Resources.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.TestMainForm.resources
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.dll
+C:\Users\Александр\Desktop\BlockConfiguration 110221 1656\obj\Release\BlockConfiguration.pdb

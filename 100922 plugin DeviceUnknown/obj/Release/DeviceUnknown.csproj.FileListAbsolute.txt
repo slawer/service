@@ -1,0 +1,11 @@
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.MainForm.resources
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.Properties.Resources.resources
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.dll
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\DeviceUnknown.pdb
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\Platform.exe
+C:\Users\Alexander\Desktop\DeviceUnknown\bin\Release\Platform.pdb

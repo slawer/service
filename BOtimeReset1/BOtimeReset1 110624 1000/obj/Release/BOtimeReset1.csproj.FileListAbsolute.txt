@@ -1,0 +1,11 @@
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Release\BOtimeReset1.dll
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Release\BOtimeReset1.pdb
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\bin\Release\Platform.pdb
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\BOtimeReset1.Form1.resources
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\BOtimeReset1.Form2.resources
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\BOtimeReset1.Properties.Resources.resources
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\BOtimeReset1.dll
+C:\Documents and Settings\Admin\Мои документы\Visual Studio 2010\Projects\BOtimeReset1\BOtimeReset1\obj\Release\BOtimeReset1.pdb

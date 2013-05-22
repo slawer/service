@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BOtimeReset1</name>
+    </assembly>
+    <members>
+        <member name="T:BOtimeReset1.Form2">
+            <summary>
+            Форма настройки параметров блоков отображения
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.Form2.#ctor(BOtimeReset1.SetTimeParameters)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="parameters">Параметры настройки программы</param>
+        </member>
+        <member name="F:BOtimeReset1.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BOtimeReset1.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BOtimeReset1.Form1">
+            <summary>
+            Главная форма модуля управляет синхронизацией времени БО
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.Form1.#ctor(Platform.IApplication)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="application">Интерфейс связи с платформой</param>
+        </member>
+        <member name="M:BOtimeReset1.Form1.SaveConfiguration(BOtimeReset1.SetTimeParameters,System.String)">
+            <summary>
+            Сохранить конфигурацию из класса параметров в файл
+            </summary>
+            <param name="parameters">Сохраняемые параметры</param>
+            <param name="uri">Имя файла, в котором сохраняется конфигурация</param>
+        </member>
+        <member name="M:BOtimeReset1.Form1.LoadConfiguration(System.String)">
+            <summary>
+            Восстановление конфигурации из файла
+            </summary>
+            <param name="uri">Имя файла, в котором сохранена конфигурация</param>
+            <returns>Класс, порождённый из сохранённых параметров</returns>
+            <exception cref="T:System.IO.FileNotFoundException">Не найден файл с конфигурацией</exception>
+            <exception cref="!:">Exception</exception>
+        </member>
+        <member name="M:BOtimeReset1.Form1.SetImageForm">
+            <summary>
+            Настройка внешнего вида формы в соответствии с параметрами конфигурации
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.Form1.SendString(System.Int32)">
+            <summary>
+            Формирование строки синхронизации с последующей отсылкой в сеть устройств
+            Может сопровождаться отсылкой дополнительной строки рестарта
+            </summary>
+            <param name="param">Адрес Блока Отображения</param>
+        </member>
+        <member name="M:BOtimeReset1.Form1.SendResetString(System.Int32)">
+            <summary>
+            Формирование строки рестарт с последующей отсылкой в сеть устройств
+            </summary>
+            <param name="param">Адрес Блока Отображения</param>
+        </member>
+        <member name="M:BOtimeReset1.Form1.SaveParams">
+            <summary>
+            Сохранение параметров настройки в класс параметров и в файл конфигурации
+            </summary>
+        </member>
+        <member name="F:BOtimeReset1.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BOtimeReset1.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BOtimeReset1.SetTimeParameters">
+            <summary>
+            Класс, содержащий настройки программы
+            </summary>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.isValidBO(System.Int32)">
+            <summary>
+            Проверка адреса БО на попадание в диапазон допустимых адресов
+            </summary>
+            <param name="number">Номер БО, адрес которого проверяется</param>
+            <returns>true если адрес попадает в диапазон допустимых</returns>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.getFlagBO(System.Int32)">
+            <summary>
+            Чтение флага разрешения синхронизации БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <returns>true если синхронизация данному БО разрешена</returns>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.getAdrBO(System.Int32)">
+            <summary>
+            Чтение адреса БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <returns>Адрес БО</returns>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.getNameBO(System.Int32)">
+            <summary>
+            Чтение наименования БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <returns>Наименование БО</returns>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.setFlagBO(System.Int32,System.Boolean)">
+            <summary>
+            Установка флага разрешения синхронизации БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <param name="flag">Состояние флага</param>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.setAdrBO(System.Int32,System.Int32)">
+            <summary>
+            Установка адреса БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <param name="addr">Адрес БО</param>
+        </member>
+        <member name="M:BOtimeReset1.SetTimeParameters.setNameBO(System.Int32,System.String)">
+            <summary>
+            Установка имени БО
+            </summary>
+            <param name="number">Номер БО (от 1 до 7)</param>
+            <param name="name">Имя БО</param>
+        </member>
+        <member name="P:BOtimeReset1.SetTimeParameters.CodeExit">
+            <summary>
+            Флаг "Применить настройки"
+            </summary>
+        </member>
+        <member name="P:BOtimeReset1.SetTimeParameters.OldFormatCMD">
+            <summary>
+            Флаг "Старый формат команды синхронизации"
+            </summary>
+        </member>
+        <member name="P:BOtimeReset1.SetTimeParameters.ResetBOAfterSet">
+            <summary>
+            Флаг "Рестарт БО после выдачи строки синхронизации"
+            </summary>
+        </member>
+        <member name="T:BOtimeReset1.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:BOtimeReset1.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:BOtimeReset1.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

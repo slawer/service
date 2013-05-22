@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DomainManager">
+</Property><Property Name="Файл решения" Value="C:\Users\Александр\Desktop\DomainManager\DomainManager.sln">
+</Property><Property Name="Файл параметров пользователя" Value="C:\Users\Александр\Desktop\DomainManager\DomainManager.suo">
+</Property><Property Name="Date" Value="20 июня 2011 г.">
+</Property><Property Name="Time" Value="18:08">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DomainManager.sln" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\DomainManager.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DomainManager.suo" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\DomainManager.suo">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="DomainManager.csproj" Description="Успешно создана резервная копия файла проекта: C:\Users\Александр\Desktop\DomainManager\Backup\DomainManager.csproj">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="DomainManager.csproj.user" Description="Резервная копия проекта успешно создана как C:\Users\Александр\Desktop\DomainManager\Backup\DomainManager.csproj.user">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="About.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\About.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="About.designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\About.designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Main.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Main.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Main.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Main.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Eprom.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Eprom.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\IO\EpromIO.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\IO\EpromIO.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\IO\IEpromIO.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\IO\IEpromIO.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Line.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Line.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Loader\EF1TXTLoader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Loader\EF1TXTLoader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Loader\EF2XMLLoader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Loader\EF2XMLLoader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Loader\EF2XMLOLDLoader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Loader\EF2XMLOLDLoader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Loader\ILoader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Loader\ILoader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Loader\Loader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Loader\Loader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Page.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Page.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Saver\EF1TXTSaver.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Saver\EF1TXTSaver.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Saver\EF2XMLSaver.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Saver\EF2XMLSaver.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Saver\IEFSaver.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Saver\IEFSaver.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\EF\Saver\Saver.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\EF\Saver\Saver.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Interface\IForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Interface\IForm.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Log\Journal.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Log\Journal.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\Generator.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\Generator.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\IApplication.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\IApplication.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\IPlatform.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\IPlatform.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\Loader.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\Loader.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\Managed.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\Managed.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\Manager.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\Manager.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Manager\PluginInfo.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Manager\PluginInfo.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Packet.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Packet.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Plugin\IPlugin.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Plugin\IPlugin.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Protocols\IProtocol.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Protocols\IProtocol.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Protocols\Protocol.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Protocols\Protocol.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Protocols\VersionX100.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Protocols\VersionX100.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Settings\Parameter.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Settings\Parameter.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Settings\Property.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Settings\Property.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\Settings\Settings.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\Settings\Settings.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\TcpClient\Packer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\TcpClient\Packer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Manager\TcpClient\SocketClient.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Manager\TcpClient\SocketClient.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Options.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Options.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Options.designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Options.designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="PluginsForm.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\PluginsForm.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="PluginsForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\PluginsForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Program.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Resources\connect.ico" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Resources\connect.ico">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Resources\disconnect.ico" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Resources\disconnect.ico">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="imac.ico" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\imac.ico">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="About.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\About.resx">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Main.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Main.resx">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Options.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Options.resx">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="PluginsForm.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\PluginsForm.resx">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла C:\Users\Александр\Desktop\DomainManager\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="DomainManager.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="DomainManager" Source="DomainManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DomainManager.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="DomainManager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DomainManager" Source="DomainManager.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

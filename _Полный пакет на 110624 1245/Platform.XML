@@ -1,0 +1,1637 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Platform</name>
+    </assembly>
+    <members>
+        <member name="T:Platform.IPlatform">
+            <summary>
+            Интерфейс определяющий базовые параметры платформы
+            </summary>
+        </member>
+        <member name="M:Platform.IPlatform.Process(Platform.Packet)">
+            <summary>
+            Обработка поступившего пакета
+            </summary>
+            <param name="packet">Пакет</param>
+        </member>
+        <member name="P:Platform.IPlatform.SpeedSurvey">
+            <summary>
+            Частота рассылки пакетов плагинам 
+            </summary>
+        </member>
+        <member name="P:Platform.IPlatform.DownTime">
+            <summary>
+            Максимальное время на обработку пакета плагином
+            </summary>
+        </member>
+        <member name="P:Platform.IPlatform.MaxPacketsCount">
+            <summary>
+            Максимальное количество пакетов , которое может быть в очереди на обработку плагином.
+            </summary>
+        </member>
+        <member name="P:Platform.IPlatform.WaitTimeForWorking">
+            <summary>
+            Время предоставляемое плагину на обработку пакета
+            </summary>
+        </member>
+        <member name="T:Platform.IForm">
+            <summary>
+            Интерфей формы, взаимодействующей с платформой
+            </summary>
+        </member>
+        <member name="M:Platform.IForm.SendPacket(Platform.Packet)">
+            <summary>
+            Послать пакет по TCP
+            </summary>
+            <param name="packet">Пакет</param>
+        </member>
+        <member name="M:Platform.IForm.InsertPluginToGiu(Platform.IPlugin,System.String)">
+            <summary>
+            Добавить плагин на форму
+            </summary>
+            <param name="plugin">Плагин</param>
+            <param name="key">Уникальный идентификатор плагина</param>
+        </member>
+        <member name="T:Platform.EF2XMLSaver">
+            <summary>
+            Класс реализующий интерфейс записа EPROM устройства в файл
+            </summary>
+        </member>
+        <member name="T:Platform.IEFSaver">
+            <summary>
+            Сохранение EPROM устройства в файл
+            </summary>
+        </member>
+        <member name="M:Platform.IEFSaver.Save(System.String,Platform.Eprom)">
+            <summary>
+            Созранить EPROM устройства в файл
+            </summary>
+            <param name="filePath">URI файла в который необходимо сохранить EPROM устройства</param>
+            <param name="eprom">EPROM клторый необходимо сохранить</param>
+        </member>
+        <member name="M:Platform.EF2XMLSaver.Save(System.String,Platform.Eprom)">
+            <summary>
+            Выполняет сохранение EPROM устройства в файл
+            </summary>
+            <param name="filePath">URI файла</param>
+            <param name="eprom">EPROM устройства который необходимо сохранить</param>
+        </member>
+        <member name="M:Platform.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="F:Platform.PluginsForm.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Platform.PluginsForm.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:Platform.PluginsForm.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="T:Platform.Managed">
+            <summary>
+            Структура, описающая плагин, его состояние и хранящее очередь пакетов на обработку
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.domain">
+            <summary>
+            домен приложения, в который занружен плагин
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.plugin">
+            <summary>
+            Плагин
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.downTime">
+            <summary>
+            Максимальное время на обработку пакета плагином
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.sendPacketTime">
+            <summary>
+            Время которое плагин выполняет обработку пакета
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.sendPackets">
+            <summary>
+            Количество отправленных пакетов плагину
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.processedPackets">
+            <summary>
+            Количество обработанных пакетов плагином
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.Packets">
+            <summary>
+            Список пакетов, которые необходимо передать плагину на обработку
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.State">
+            <summary>
+            Состояние плагина
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.InvokeAsync">
+            <summary>
+            Делегат, содержащий метод обработки пакета, который определил плагин
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.iAsync">
+            <summary>
+            Объек хранищий асинхронный вызов процедуры обработки пакета
+            </summary>
+        </member>
+        <member name="F:Platform.Managed.key">
+            <summary>
+            Уникальный идентификатор плагина
+            </summary>
+        </member>
+        <member name="M:Platform.Managed.#ctor(Platform.IPlugin)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="Plugin">Плагин</param>
+        </member>
+        <member name="T:Platform.Sender">
+            <summary>
+            Делегат описывающий вызов процедуры обработки 
+            </summary>
+            <param name="packet"></param>
+        </member>
+        <member name="T:Platform.ManagedState">
+            <summary>
+            Состояние плагина
+            </summary>
+        </member>
+        <member name="F:Platform.ManagedState.Wait">
+            <summary>
+            Ожидает получение пакета
+            </summary>
+        </member>
+        <member name="F:Platform.ManagedState.Processed">
+            <summary>
+            Находится в процессе обработки пакета
+            </summary>
+        </member>
+        <member name="F:Platform.ManagedState.Overflow">
+            <summary>
+            Переполненна очередь пакетов ожидающих обработку
+            </summary>
+        </member>
+        <member name="F:Platform.ManagedState.NotResponding">
+            <summary>
+            Не отвечает. превышен лимит времени обработки одного пакета
+            </summary>
+        </member>
+        <member name="F:Platform.ManagedState.Default">
+            <summary>
+            По умолчанию
+            </summary>
+        </member>
+        <member name="F:Platform.Main.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Platform.Main.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:Platform.Main.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="M:Platform.Generator.GeneratePluginKey">
+            <summary>
+            Генерирует уникальный описатель плагина
+            </summary>
+            <returns>Строка идентификатор</returns>
+        </member>
+        <member name="M:Platform.Generator.GenerateDomainName">
+            <summary>
+            Генерирует уникальный описатель домена
+            </summary>
+            <returns>Строка идентификатор</returns>
+        </member>
+        <member name="T:Platform.EF2XMLOLDLoader">
+            <summary>
+            Класс выполняющий загрузку EPROM устройства из файла
+            </summary>
+        </member>
+        <member name="T:Platform.IEFLoader">
+            <summary>
+            Загрузка EPROM устройства из файла
+            </summary>
+        </member>
+        <member name="M:Platform.IEFLoader.Load(System.String)">
+            <summary>
+            Загрузка EPROM устройства из файла
+            </summary>
+            <param name="filePath">URI файла, содержащего EPROM устройства</param>
+            <returns>Загруженный EPROM устройства или же null, если загрузить EPROM не удалось</returns>
+        </member>
+        <member name="M:Platform.EF2XMLOLDLoader.Load(System.String)">
+            <summary>
+            Загружает EPROM устройства из файла
+            </summary>
+            <param name="filePath">Путь к файлу</param>
+            <returns>Загруженный EPROM устройства или же null, если загрузить EPROM не удалось</returns>
+        </member>
+        <member name="M:Platform.IPlugin.Process(Platform.Packet)">
+            <summary>
+            Метод , выполняющий обработку поступившего пакета
+            </summary>
+            <param name="packet">Пакет</param>
+        </member>
+        <member name="M:Platform.IPlugin.Initialize(Platform.IApplication)">
+            <summary>
+            Метод, вызываемый платформой, после того как плагин будет загруженн
+            </summary>
+            <param name="application">Указатель на сервисы, которые предоставляет платформа плагину</param>
+        </member>
+        <member name="M:Platform.IPlugin.Dispose">
+            <summary>
+            Метод вызываемый перед тем как плагин будет выгружен
+            </summary>
+        </member>
+        <member name="M:Platform.IPlugin.Activate">
+            <summary>
+            Метод, вызываемый при выборе плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Name">
+            <summary>
+            Имя плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Author">
+            <summary>
+            Автор плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Description">
+            <summary>
+            Описание плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Version">
+            <summary>
+            Версия плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Send">
+            <summary>
+            Свойство определяющее, необходимо ли выполнять посылку плагину пакеты на обработку
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.MainMenuString">
+            <summary>
+            Строка, которая будет отображаться в главном меню, при нажатии на котором будет активизирован данный плагин 
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.ContextMenuString">
+            <summary>
+            Строка, которая будет отображаться в контекстном, при нажатии на котором будет активизирован данный плагин 
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.Icon">
+            <summary>
+            Иконка плагина
+            </summary>
+        </member>
+        <member name="P:Platform.IPlugin.FaceString">
+            <summary>
+            Строка, которая будет отображаться рялом с иконкой плагина
+            </summary>
+        </member>
+        <member name="T:Platform.Manager">
+            <summary>
+            Выполняет загрузку и управление плагинами
+            </summary>
+        </member>
+        <member name="M:Platform.IApplication.SendPacket(Platform.Packet)">
+            <summary>
+            Отправка пакета по TCP серверу
+            </summary>
+            <param name="packet">Пакет</param>
+        </member>
+        <member name="M:Platform.IApplication.GetEFLoader(Platform.FileFormat)">
+            <summary>
+            Возвращяет загрузчик, выполняющий загрузку EPROM с диска(файла)
+            </summary>
+            <param name="format">Формат в котором сохранен EPROM в файле</param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.IApplication.GetEFSaver(Platform.FileFormat)">
+            <summary>
+            Возвращяет сохраняльщик, выполняющий сохранение EPROM на диска(файла)
+            </summary>
+            <param name="format">Формат в котором нужно сохранить EPROM в файле</param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.IApplication.GetProtocol(Platform.ProtocolVersion)">
+            <summary>
+            Возвращяет объект, предоставляющий функции для работы с протоколом
+            </summary>
+            <param name="version">Версия формата протокола</param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.IApplication.ToLogMessage(System.String,System.String,System.Diagnostics.EventLogEntryType)">
+            <summary>
+            Выполняет сохранение инфомации в лог
+            </summary>
+            <param name="Name">Имя плагина, сохраняющего сообщение в лог</param>
+            <param name="Message">Сообщение</param>
+            <param name="TypeEvent">Тип сообщения</param>
+        </member>
+        <member name="M:Platform.IApplication.GetEpromRW">
+            <summary>
+            Получить интерфейс реализующий чтение/записть
+            </summary>
+            <returns>Интерфей реализующий чтени/запись</returns>
+        </member>
+        <member name="P:Platform.IApplication.Name">
+            <summary>
+            Имя платформы
+            </summary>
+        </member>
+        <member name="P:Platform.IApplication.Author">
+            <summary>
+            Автор платформы
+            </summary>
+        </member>
+        <member name="P:Platform.IApplication.Description">
+            <summary>
+            Описание платформы
+            </summary>
+        </member>
+        <member name="P:Platform.IApplication.Version">
+            <summary>
+            Версия платформы
+            </summary>
+        </member>
+        <member name="M:Platform.Manager.GetManager(Platform.IForm)">
+            <summary>
+            Инстанцировать менеджер
+            </summary>
+            <param name="frm">Форма с которой будет выполняться взаимодействие</param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.Manager.Load(System.String)">
+            <summary>
+            Загрузить сборку
+            </summary>
+            <param name="path">Папка с плагинами</param>
+        </member>
+        <member name="M:Platform.Manager.Process(Platform.Packet)">
+            <summary>
+            Обработка поступившего пакета
+            </summary>
+            <param name="packet">Пакет</param>
+        </member>
+        <member name="T:Platform.Message">
+            <summary>
+            Делегат описывающий шаблон вызова метода, который вызывается когда осуществляется выгрузка плагина
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="T:Platform.ResultOperation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Platform.Information">
+            <summary>
+            Класс описывающий что и как необходимо прочитать/записать. Не выполняется контроль данных!
+            </summary>
+        </member>
+        <member name="P:Platform.Information.Device">
+            <summary>
+            Номер устройства
+            </summary>
+        </member>
+        <member name="P:Platform.Information.AttemptsToReadWriteEntries">
+            <summary>
+            Попыток чтения/записи
+            </summary>
+        </member>
+        <member name="P:Platform.Information.TimeoutForResponseFromDevice">
+            <summary>
+            Таймаут ожидания ответа от устройства
+            </summary>
+        </member>
+        <member name="P:Platform.Information.TimeoutBetweenAttemptsToReadWrite">
+            <summary>
+            Таймаут между попытками чтения/записи
+            </summary>
+        </member>
+        <member name="P:Platform.Information.NumberOfDataChecks">
+            <summary>
+            Количество проверок данных
+            </summary>
+        </member>
+        <member name="P:Platform.Information.UseBroadcastAddress">
+            <summary>
+            Использовать широковещательный адрес
+            </summary>
+        </member>
+        <member name="P:Platform.Information.UseAlgorithmWithDataProtection">
+            <summary>
+            Использовать алгоритм с защитой данных
+            </summary>
+        </member>
+        <member name="P:Platform.Information.Page">
+            <summary>
+            Страница
+            </summary>
+        </member>
+        <member name="P:Platform.Information.Offset">
+            <summary>
+            Смещение на странице
+            </summary>
+        </member>
+        <member name="P:Platform.Information.Lenght">
+            <summary>
+            Длинна данных
+            </summary>
+        </member>
+        <member name="P:Platform.Information.ProtectionStart">
+            <summary>
+            тело команды на разрешение записи начало "09012002A00100"
+            </summary>        
+        </member>
+        <member name="P:Platform.Information.ProtectionEnd">
+            <summary>
+            тело команды на разрешение записи конец "0705100100"
+            </summary>
+        </member>
+        <member name="T:Platform.EFLoader">
+            <summary>
+            Класс инстанцирующий класс загрузки EPROM устройства в указанном формате
+            </summary>
+        </member>
+        <member name="M:Platform.EFLoader.CreateLoader(Platform.FileFormat)">
+            <summary>
+            Возвращает загрузчик EPROM для указанного формата файла
+            </summary>
+            <param name="format">Формат в котором хранится EPROM устройства</param>
+            <returns>Загрузчик для указанного формата</returns>
+        </member>
+        <member name="T:Platform.EF2XMLLoader">
+            <summary>
+            Класс реализующий интерфейс загрузки EPROM устройства из файла
+            </summary>
+        </member>
+        <member name="M:Platform.EF2XMLLoader.Load(System.String)">
+            <summary>
+            Загружает EPROM устройства из файла
+            </summary>
+            <param name="filePath">Путь к файлу</param>
+            <returns>Загруженный EPROM устройства или же null, если загрузить EPROM не удалось</returns>
+        </member>
+        <member name="T:Platform.SaveOptions">
+            <summary>
+            Перечесление опций сохранения параметров
+            </summary>
+        </member>
+        <member name="F:Platform.SaveOptions.CreateNewXml">
+            <summary>
+            Нужно создать новый файл конфигурации
+            </summary>
+        </member>
+        <member name="F:Platform.SaveOptions.ModifyCurrentXml">
+            <summary>
+            Нужно модифицировать имеющийся файл конфигурации
+            </summary>
+        </member>
+        <member name="T:Platform.Settings">
+            <summary>
+            Класс для работы с конфигурацией
+            </summary>
+        </member>
+        <member name="M:Platform.Settings.Insert(Platform.Parameter)">
+            <summary>
+            Добавить параметр
+            </summary>
+            <param name="parameter">Добавляемый параметр</param>
+        </member>
+        <member name="M:Platform.Settings.CreateNewSettings">
+            <summary>
+            Получить класс конфигурации
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.Settings.Load(System.String)">
+            <summary>
+            Загрузка конфигурации из файла
+            </summary>
+            <param name="settingsFilePath">URI файла конфигурации</param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.Settings.Save(System.String,Platform.SaveOptions)">
+            <summary>
+            Сохранение конфигурации в файл
+            </summary>
+            <param name="FilePath">URI файла</param>
+            <param name="Options">Опции сохранения</param>
+        </member>
+        <member name="P:Platform.Settings.Parameters">
+            <summary>
+            список параметров
+            </summary>
+        </member>
+        <member name="P:Platform.Settings.SettingsFilePath">
+            <summary>
+            URI файла , в котором храниться конфигурация
+            </summary>
+        </member>
+        <member name="T:Platform.IProtocol">
+            <summary>
+            Интерфейс определяющий методы, который должен реализовать класс, наследующий данный интерфейс
+            </summary>
+        </member>
+        <member name="M:Platform.IProtocol.GetLadd(System.String)">
+            <summary>
+            Получить линейный адресс (поле LADD)
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Линейный адресс в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetL_Pack(System.String)">
+            <summary>
+            Получить длинну пакета (поле L_PAK)
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Длинна пакета в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetCmd(System.String)">
+            <summary>
+            Получить команду (поле CMD)
+            </summary>
+            <param name="packet"></param>
+            <returns>Команда в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetAdr(System.String)">
+            <summary>
+            Получить адресс (поле ADR)
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Адресс в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetLData(System.String)">
+            <summary>
+            Получить длинну поля данных (поле LDATA)
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Длинна поля данных в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetData(System.String)">
+            <summary>
+            Получить данных, находящиеся в пакете
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Данные в виде строки(HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetStatus(System.String)">
+            <summary>
+            Получить статус
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Статус в виде строки(два байта в HEX формате)</returns>
+        </member>
+        <member name="M:Platform.IProtocol.IsToDevice(System.String)">
+            <summary>
+            Определяет пакет предназначен для устройства
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - пакет для устройства, false - нет</returns>
+        </member>
+        <member name="M:Platform.IProtocol.IsFromDevice(System.String)">
+            <summary>
+            Определяет источником данного пакета являеься устройство
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - пакет поступил от устройства, false - нет</returns>
+        </member>
+        <member name="M:Platform.IProtocol.GetNumberDevice(System.String)">
+            <summary>
+            Получить номер устройства
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Номер устройства</returns>
+        </member>
+        <member name="M:Platform.IProtocol.IsRead(System.String)">
+            <summary>
+            Определить данный пакет содержит команду на чтение
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - если содержит команду на чтение, false - в противном случае</returns>
+        </member>
+        <member name="M:Platform.IProtocol.IsWrite(System.String)">
+            <summary>
+            Определить данный пакет содержит команду на запись
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - если содержит команду на запись, false - в противном случае</returns>
+        </member>
+        <member name="M:Platform.IProtocol.PageAdress(System.String)">
+            <summary>
+            Определяет номер страницы
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Номер сраницы</returns>
+        </member>
+        <member name="M:Platform.IProtocol.CreateCommand(Platform.Device,Platform.Command,Platform.PageNumber,System.Int32,System.Int32,System.String)">
+            <summary>
+            Генерирует пакет
+            </summary>
+            <param name="Number">Номер устройства</param>
+            <param name="Cmd">Команда на чтение/запись/чтение-запись</param>
+            <param name="pNumber">Номер страницы</param>
+            <param name="Offset">Смещение на странице</param>
+            <param name="lenghtOfData">Длинна данных</param>
+            <param name="Data">Данные</param>
+            <returns>Строка, содержащая сгенерированную команду</returns>
+        </member>
+        <member name="M:Platform.IProtocol.CreateCommand(System.Int32,Platform.Command,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Генерирует пакет
+            </summary>
+            <param name="Number">Номер устройства</param>
+            <param name="Cmd">Команда на чтение/запись/чтение-запись</param>
+            <param name="pNumber">Номер страницы</param>
+            <param name="Offset">Смещение на странице</param>
+            <param name="lenghtOfData">Длинна данных</param>
+            <param name="Data">Данные</param>
+            <returns>Строка, содержащая сгенерированную команду</returns>
+        </member>
+        <member name="T:Platform.Device">
+            <summary>
+            Перечесление номеров устройств
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D1">
+            <summary>
+            Устройство номер 1 
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D2">
+            <summary>
+            Устройство номер 2
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D3">
+            <summary>
+            Устройство номер 3
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D4">
+            <summary>
+            Устройство номер 4
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D5">
+            <summary>
+            Устройство номер 5
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D6">
+            <summary>
+            Устройство номер 6
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D7">
+            <summary>
+            Устройство номер 7
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D8">
+            <summary>
+            Устройство номер 8
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D9">
+            <summary>
+            Устройство номер 9
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D10">
+            <summary>
+            Устройство номер 10
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D11">
+            <summary>
+            Устройство номер 11
+            </summary>        
+        </member>
+        <member name="F:Platform.Device.D12">
+            <summary>
+            Устройство номер 12
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D13">
+            <summary>
+            Устройство номер 13
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D14">
+            <summary>
+            Устройство номер 14
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D15">
+            <summary>
+            Устройство номер 15
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D16">
+            <summary>
+            Устройство номер 16
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D17">
+            <summary>
+            Устройство номер 17
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D18">
+            <summary>
+            Устройство номер 18
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D19">
+            <summary>
+            Устройство номер 19
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D20">
+            <summary>
+            Устройство номер 20
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D21">
+            <summary>
+            Устройство номер 21
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D22">
+            <summary>
+            Устройство номер 22
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D23">
+            <summary>
+            Устройство номер 23
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D24">
+            <summary>
+            Устройство номер 24
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D25">
+            <summary>
+            Устройство номер 25
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D26">
+            <summary>
+            Устройство номер 26
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D27">
+            <summary>
+            Устройство номер 27
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D28">
+            <summary>
+            Устройство номер 28
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D29">
+            <summary>
+            Устройство номер 29
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D30">
+            <summary>
+            Устройство номер 30
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D31">
+            <summary>
+            Устройство номер 31
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D32">
+            <summary>
+            Устройство номер 32
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D33">
+            <summary>
+            Устройство номер 33
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D34">
+            <summary>
+            Устройство номер 34
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D35">
+            <summary>
+            Устройство номер 35
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D36">
+            <summary>
+            Устройство номер 36
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D37">
+            <summary>
+            Устройство номер 37
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D38">
+            <summary>
+            Устройство номер 38
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D39">
+            <summary>
+            Устройство номер 39
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D40">
+            <summary>
+            Устройство номер 40
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D41">
+            <summary>
+            Устройство номер 41
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D42">
+            <summary>
+            Устройство номер 42
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D43">
+            <summary>
+            Устройство номер 43
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D44">
+            <summary>
+            Устройство номер 44
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D45">
+            <summary>
+            Устройство номер 45
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D46">
+            <summary>
+            Устройство номер 46
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D47">
+            <summary>
+            Устройство номер 47
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D48">
+            <summary>
+            Устройство номер 48
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D49">
+            <summary>
+            Устройство номер 49
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D50">
+            <summary>
+            Устройство номер 50
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D51">
+            <summary>
+            Устройство номер 51
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D52">
+            <summary>
+            Устройство номер 52
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D53">
+            <summary>
+            Устройство номер 53
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D54">
+            <summary>
+            Устройство номер 54
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D55">
+            <summary>
+            Устройство номер 55
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D56">
+            <summary>
+            Устройство номер 56
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D57">
+            <summary>
+            Устройство номер 57
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D58">
+            <summary>
+            Устройство номер 58
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D59">
+            <summary>
+            Устройство номер 59
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D60">
+            <summary>
+            Устройство номер 60
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D61">
+            <summary>
+            Устройство номер 61
+            </summary>
+        </member>
+        <member name="F:Platform.Device.D3F">
+            <summary>
+            Широковещательный адресс
+            </summary>
+        </member>
+        <member name="T:Platform.Command">
+            <summary>
+            Перечесление типов команд
+            </summary>
+        </member>
+        <member name="F:Platform.Command.Read">
+            <summary>
+            Чтение
+            </summary>
+        </member>
+        <member name="F:Platform.Command.Write">
+            <summary>
+            Запись
+            </summary>
+        </member>
+        <member name="F:Platform.Command.ReadWrite">
+            <summary>
+            чтение-запись
+            </summary>
+        </member>
+        <member name="F:Platform.Command.SetTime">
+            <summary>
+            Установить время
+            </summary>
+        </member>
+        <member name="T:Platform.PageNumber">
+            <summary>
+            Перечесление номеров страниц
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P0">
+            <summary>
+            нулевая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P1">
+            <summary>
+            первая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P2">
+            <summary>
+            Вторая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P3">
+            <summary>
+            Третья страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P4">
+            <summary>
+            Четвертая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P5">
+            <summary>
+            Пятая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P6">
+            <summary>
+            Шестая страница
+            </summary>
+        </member>
+        <member name="F:Platform.PageNumber.P7">
+            <summary>
+            Седьмая страница
+            </summary>
+        </member>
+        <member name="T:Platform.EFSaver">
+            <summary>
+            Класс инстанцирующий класс сохранения EPROM устройства в указанном формате
+            </summary>
+        </member>
+        <member name="M:Platform.EFSaver.CreateSaver(Platform.FileFormat)">
+            <summary>
+            Вернуть класс сохраняюший EPROM устройства в указанном формате
+            </summary>
+            <param name="format">Формат в котором неоходимо сохранить EPROM устройства</param>
+            <returns>Класс, выполняющий сохранение EPROM в файл</returns>
+        </member>
+        <member name="F:Platform.About.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Platform.About.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+        </member>
+        <member name="M:Platform.About.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="T:Platform.ProtocolVersion">
+            <summary>
+            Перечесление, содержащее версии протокола
+            </summary>
+        </member>
+        <member name="F:Platform.ProtocolVersion.x100">
+            <summary>
+            Первая версия
+            </summary>
+        </member>
+        <member name="M:Platform.Protocol.GetProtocol(Platform.ProtocolVersion)">
+            <summary>
+            Получить протокол
+            </summary>
+            <param name="version">версия протокола</param>
+            <returns></returns>
+        </member>
+        <member name="T:Platform.FileFormat">
+            <summary>
+            Перечесление доступных форматов файла
+            </summary>
+        </member>
+        <member name="F:Platform.FileFormat.EF1TXT">
+            <summary>
+            простой текстовый формат (устарел)
+            </summary>
+        </member>
+        <member name="F:Platform.FileFormat.EF2XML">
+            <summary>
+            Формат XML (основной формат)
+            </summary>
+        </member>
+        <member name="F:Platform.FileFormat.EF2XMLOLD">
+            <summary>
+            Формат XML (устаревший)
+            </summary>
+        </member>
+        <member name="M:Platform.Loader.LoadPlugins(System.String)">
+            <summary>
+            Загрузка плагина
+            </summary>
+            <param name="path">URI к плагину</param>
+            <returns></returns>
+        </member>
+        <member name="F:Platform.Options.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Platform.Options.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:Platform.Options.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="T:Platform.EF1TXTSaver">
+            <summary>
+            Класс выполняющий сохранение EPROM устройства в файл в текстовом формате
+            </summary>
+        </member>
+        <member name="M:Platform.EF1TXTSaver.Save(System.String,Platform.Eprom)">
+            <summary>
+            Выполняет сохранение EPROM устройства в файл
+            </summary>
+            <param name="filePath">URI файла</param>
+            <param name="eprom">EPROM устройства который необходимо сохранить</param>
+        </member>
+        <member name="T:Platform.EF1TXTLoader">
+            <summary>
+            Класс выполняющий загрузку EPROM устройства из файла
+            </summary>
+        </member>
+        <member name="M:Platform.EF1TXTLoader.Load(System.String)">
+            <summary>
+            Загружает EPROM устройства из файла
+            </summary>
+            <param name="filePath">Путь к файлу</param>
+            <returns>Загруженный EPROM устройства или же null, если загрузить EPROM не удалось</returns>
+        </member>
+        <member name="T:Platform.Line">
+            <summary>
+            Класс описывающий строку страницы EPROM устройства
+            </summary>
+        </member>
+        <member name="P:Platform.Line.Item(System.Int32)">
+            <summary>
+            Получить байт по его смещению в строке
+            </summary>
+            <param name="index">Смещение</param>
+            <returns>Байт</returns>
+        </member>
+        <member name="T:Platform.PluginRW">
+            <summary>
+            Осуществляет чтени/запись. Используется при программировании плагинов платформы
+            </summary>
+        </member>
+        <member name="M:Platform.PluginRW.#ctor(Platform.IApplication)">
+            <summary>
+            Инициализирует новый экземпляр класса
+            </summary>
+            <param name="application">Ссылка на интерфейс платформы</param>
+        </member>
+        <member name="M:Platform.PluginRW.Packet(System.String)">
+            <summary>
+            Выплняет обработку поступившего пакета
+            </summary>
+            <param name="packet">Пакет для обработки</param>
+        </member>
+        <member name="M:Platform.PluginRW.Write(System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Выполняет запись в EPROM устройства(запись осуществляется с помощью команды запись и чтение)
+            </summary>
+            <param name="Device">Номер устройства</param>
+            <param name="Page">Номер страницы(нумерация начинается с единицы)</param>
+            <param name="Offset">Смещение по которому необходимо начинать записб данных в устройство</param>
+            <param name="Lenght">Длинна записываемых данных</param>
+            <param name="Data">Данные для записи</param>
+            <returns>Результат</returns>
+        </member>
+        <member name="M:Platform.PluginRW.Read(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Выполняет чтение данных с EPROM устройства
+            </summary>
+            <param name="Device">Номер устройства</param>
+            <param name="Page">Номер страницы(нумерация страниц начинается с единицы)</param>
+            <param name="Offset">Смещение с которого необходимо выполнять чтение</param>
+            <param name="Lenght">Размер, в байтах, данных которые необходимо считать</param>
+            <returns>Пакет ответа со считанными данными</returns>
+        </member>
+        <member name="M:Platform.PluginRW.FreeQuestion(System.String,System.String,System.String)">
+            <summary>
+            Выполняет произвольный запрос, с учетом что на выполняемый запрос должен быть ответ
+            </summary>
+            <param name="Question">Строка запроса, который необходимо выполнить(отправить устройству)</param>
+            <param name="Template">Должен быть равен string.Empty</param>
+            <param name="Answer">Критерий по которому определяется ответ на запрос</param>
+            <returns>Пакет ответа на заданный запрос устройству</returns>
+        </member>
+        <member name="M:Platform.PluginRW.ChekerToRWEprom(Platform.Packet)">
+            <summary>
+            Читаем конфигурацию
+            </summary>
+            <param name="packet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.PluginRW.CheckOneToRWEprom(Platform.Packet)">
+            <summary>
+            
+            </summary>
+            <param name="packet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.PluginRW.CheckDatas(System.Collections.Generic.List{System.String})">
+            <summary>
+            проверка данных
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.PluginRW.GetEprom">
+            <summary>
+            Возврощает EPROM устройства(считывание выполняется в синхронном режиме)
+            </summary>
+            <returns>EPROM устройства</returns>
+        </member>
+        <member name="M:Platform.PluginRW.GetEprom(System.Int32[])">
+            <summary>
+            Возврощает EPROM устройства с заданными страницами
+            </summary>
+            <param name="Pages">массив страниц, которые необходимо загрузить</param>
+            <returns>EPROM устройства</returns>
+        </member>
+        <member name="M:Platform.PluginRW.Write(System.String)">
+            <summary>
+            Выполняет запись данных в EPROM устройства, с параметрами указанными в настройках данного класса
+            </summary>
+            <param name="Data">Данные которые необходимо записать</param>
+            <returns>Пакет, который является ответом на запрос записи данных в устройство</returns>
+        </member>
+        <member name="M:Platform.PluginRW.FreeQuestion(System.String,System.String)">
+            <summary>
+            Выполняет произвольный запрос, с учетом что на выполняемый запрос должен быть ответ
+            </summary>
+            <param name="Question">Строка запроса, который необходимо выполнить(отправить устройству)</param>
+            <param name="Answer">Критерий по которому определяется ответ на запрос</param>
+            <returns>Пакет ответа на заданный запрос устройству</returns>
+        </member>
+        <member name="M:Platform.PluginRW.SetEprom(Platform.Eprom)">
+            <summary>
+            Записать выбранный eprom в устройство
+            </summary>
+            <param name="eprom">Eprom который необходимо записать</param>
+        </member>
+        <member name="M:Platform.PluginRW.SetEprom(Platform.Eprom,System.Int32[])">
+            <summary>
+            Записать выбранный eprom в устройство с заданными страницами
+            </summary>
+            <param name="eprom">Eprom который необходимо записать</param>
+            <param name="Pages">Страницы которые необходимо записать</param>
+        </member>
+        <member name="P:Platform.PluginRW.LastOperation">
+            <summary>
+            Определт результат последней операции чтения/записи
+            </summary>
+        </member>
+        <member name="P:Platform.PluginRW.Options">
+            <summary>
+            Определяет параметры операции чтения/записи
+            </summary>
+        </member>
+        <member name="T:Platform.Parameter">
+            <summary>
+            Класс определяющий параметр конфигурации
+            </summary>
+        </member>
+        <member name="M:Platform.Parameter.#ctor(System.String)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="name">Имя параметра</param>
+        </member>
+        <member name="M:Platform.Parameter.Insert(Platform.Property)">
+            <summary>
+            Добавить свойство
+            </summary>
+            <param name="property">Свойство</param>
+        </member>
+        <member name="M:Platform.Parameter.Remove(Platform.Property)">
+            <summary>
+            Удалить свойство
+            </summary>
+            <param name="property">Удаляемое свойство</param>
+        </member>
+        <member name="P:Platform.Parameter.Name">
+            <summary>
+            Имя параметра
+            </summary>
+        </member>
+        <member name="P:Platform.Parameter.Value">
+            <summary>
+            Значение параметра
+            </summary>
+        </member>
+        <member name="P:Platform.Parameter.Properties">
+            <summary>
+            Список свойств параметра
+            </summary>
+        </member>
+        <member name="P:Platform.Parameter.Item(System.Int32)">
+            <summary>
+            Получить свойство параметра по его индексу
+            </summary>
+            <param name="index">Индек параметра</param>
+            <returns>Свойство параметра</returns>
+        </member>
+        <member name="T:Platform.PluginInfo">
+            <summary>
+            Класс содержащий информацию о плагине
+            </summary>
+        </member>
+        <member name="T:Platform.Journal">
+            <summary>
+            Класс, выполняющий сохранение сообщений в лог
+            </summary>
+        </member>
+        <member name="M:Platform.Journal.GetLogJournal">
+            <summary>
+            Получение экземпляря класса для сохранения сообщения в файл
+            </summary>
+            <returns>Класс Journal</returns>
+        </member>
+        <member name="M:Platform.Journal.WriteEvent(System.String,System.Diagnostics.EventLogEntryType)">
+            <summary>
+            Записать сообщение в лог
+            </summary>
+            <param name="message">Сообщение</param>
+            <param name="eventType">Тип сообщения</param>
+        </member>
+        <member name="M:Platform.Journal.WriteEvent(System.String,System.String,System.Diagnostics.EventLogEntryType)">
+            <summary>
+            Записать сообщение в лог
+            </summary>
+            <param name="message">Сообщени</param>
+            <param name="stack">Стек</param>
+            <param name="eventType">Тип сообщения</param>
+        </member>
+        <member name="T:Platform.VersionX100">
+            <summary>
+            Реализует работу с протокол первой версии
+            </summary>
+        </member>
+        <member name="M:Platform.VersionX100.CreateProtocol">
+            <summary>
+            Инстанцировать класс
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetLadd(System.String)">
+            <summary>
+            Получить линейный адресс из пакета
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Линейный адрес</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetL_Pack(System.String)">
+            <summary>
+            Выделить поле L_PACK из пакета
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Поле L_PACK</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetCmd(System.String)">
+            <summary>
+            Выделить поле CMD
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Поле CMD</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetAdr(System.String)">
+            <summary>
+            Выделить поле ADR
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Поле ADR</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetLData(System.String)">
+            <summary>
+            Выделить поле LDATA
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Поле LDATA</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetData(System.String)">
+            <summary>
+            Выделить данные из пакета
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Данные, содержащиеся в пакете</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetStatus(System.String)">
+            <summary>
+            Выделить поле статуса
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Статусный байт</returns>
+        </member>
+        <member name="M:Platform.VersionX100.IsToDevice(System.String)">
+            <summary>
+            Определяет данный пакет для отправки устройству
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - если пакет предназначается устройству</returns>
+        </member>
+        <member name="M:Platform.VersionX100.IsFromDevice(System.String)">
+            <summary>
+            Определяет данный пакет поступил от устройства
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - если пакет пришел от устройства</returns>
+        </member>
+        <member name="M:Platform.VersionX100.GetNumberDevice(System.String)">
+            <summary>
+            Получить номер устройства из пакета
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Номер устройства</returns>
+        </member>
+        <member name="M:Platform.VersionX100.IsRead(System.String)">
+            <summary>
+            Определяет данный пакет содержит команду на чтение с устройства
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - да пакет содержит команду на чтение</returns>
+        </member>
+        <member name="M:Platform.VersionX100.IsWrite(System.String)">
+            <summary>
+            Определяет данный пакет содержит команду на запись в устройство
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>true - да пакет содержит команду на запись</returns>
+        </member>
+        <member name="M:Platform.VersionX100.PageAdress(System.String)">
+            <summary>
+            Получить номер страницы
+            </summary>
+            <param name="packet">Пакет</param>
+            <returns>Номер страницы</returns>
+        </member>
+        <member name="M:Platform.VersionX100.CreateCommand(Platform.Device,Platform.Command,Platform.PageNumber,System.Int32,System.Int32,System.String)">
+            <summary>
+            Формирует команду
+            </summary>
+            <param name="Number">Номер устройства</param>
+            <param name="Cmd">Комадна на чтени, запись, чтени/запись</param>
+            <param name="pNumber">Номер страницы</param>
+            <param name="Offset">Смещенеи на странице</param>
+            <param name="lenghtOfData">Длинна данных</param>
+            <param name="Data">Данные</param>
+            <returns>Сформированная команда</returns>
+        </member>
+        <member name="M:Platform.VersionX100.CreateCommand(System.Int32,Platform.Command,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Формирует команду
+            </summary>
+            <param name="Number">Номер устройства</param>
+            <param name="Cmd">Комадна на чтени, запись, чтени/запись</param>
+            <param name="pNumber">Номер страницы</param>
+            <param name="Offset">Смещенеи на странице</param>
+            <param name="lenghtOfData">Длинна данных</param>
+            <param name="Data">Данные</param>
+            <returns>Сформированная команда</returns>
+        </member>
+        <member name="T:Platform.Packet">
+            <summary>
+            Класс, описывающий пакет , поступивший по TCP от сервера
+            </summary>
+        </member>
+        <member name="F:Platform.Packet.packet">
+            <summary>
+            Строка, содержащая пакет, в виде строки
+            </summary>
+        </member>
+        <member name="F:Platform.Packet.dateReceived">
+            <summary>
+            Время отправки/прихода пакета по TCP от/к серверу
+            </summary>
+        </member>
+        <member name="F:Platform.Packet.Token">
+            <summary>
+            Зарезервированние поле, определящее дополнительную информацию(зависит от конкретного плагина)
+            </summary>
+        </member>
+        <member name="M:Platform.Packet.#ctor(System.String,System.DateTime,System.Object)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="tcpPacket">Пакет в строковом представлении в HEX формате</param>
+            <param name="dateTimeRaceive">Время создания пакета</param>
+            <param name="token">Дополнительная информация передаваемая с пакетом</param>
+        </member>
+        <member name="T:Platform.Property">
+            <summary>
+            Класс описывающий свойство параметра
+            </summary>
+        </member>
+        <member name="M:Platform.Property.#ctor(System.String,System.String)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="Name">Имя свойства</param>
+            <param name="Value">Значение свойства</param>
+        </member>
+        <member name="P:Platform.Property.Name">
+            <summary>
+            Имя свойства
+            </summary>
+        </member>
+        <member name="P:Platform.Property.Value">
+            <summary>
+            Значение свойства
+            </summary>
+        </member>
+        <member name="T:Platform.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Platform.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Platform.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="T:Platform.Page">
+            <summary>
+            Класс описывающий страницу EPROM устройства
+            </summary>
+        </member>
+        <member name="M:Platform.Page.#ctor(System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="P:Platform.Page.Item(System.Int32)">
+            <summary>
+            Получить байт по его смещению на странице
+            </summary>
+            <param name="offset">Смещение</param>
+            <returns>Байт</returns>
+        </member>
+        <member name="P:Platform.Page.Lines">
+            <summary>
+            Список строк страницы
+            </summary>
+        </member>
+        <member name="T:Platform.Eprom">
+            <summary>
+            Класс описывающий EPROM устройства
+            </summary>
+        </member>
+        <member name="M:Platform.Eprom.GetByte(System.Int32)">
+            <summary>
+            Возвращяет значение байта
+            </summary>
+            <param name="offset">Смещение (абсолютное, то есть начинается с нуля)</param>
+            <returns>Значение байта по указанному смещению</returns>
+        </member>
+        <member name="M:Platform.Eprom.SetByte(System.Int32,System.Byte)">
+            <summary>
+            Устанавливает значение байта
+            </summary>
+            <param name="offset">Смещение (абсолютное, то есть начинается с нуля)</param>
+            <returns>Значение байта по указанному смещению которое было до установки нового</returns>
+        </member>
+        <member name="P:Platform.Eprom.Item(System.Int32)">
+            <summary>
+            Получить страницу по ее номеру
+            </summary>
+            <param name="index">Номер страницы</param>
+            <returns>Запрашиваемая страница EPROM-а</returns>
+        </member>
+        <member name="P:Platform.Eprom.Pages">
+            <summary>
+            Получить страницы
+            </summary>
+        </member>
+    </members>
+</doc>

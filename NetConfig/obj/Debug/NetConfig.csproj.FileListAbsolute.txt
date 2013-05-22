@@ -1,0 +1,11 @@
+C:\Users\Developer\Desktop\NetConfig\bin\Debug\NetConfig.dll
+C:\Users\Developer\Desktop\NetConfig\bin\Debug\NetConfig.pdb
+C:\Users\Developer\Desktop\NetConfig\bin\Debug\Platform.exe
+C:\Users\Developer\Desktop\NetConfig\bin\Debug\Platform.pdb
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.GUI.MainForm.resources
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.GUI.OptionsForm.resources
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.Properties.Resources.resources
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.dll
+C:\Users\Developer\Desktop\NetConfig\obj\Debug\NetConfig.pdb
